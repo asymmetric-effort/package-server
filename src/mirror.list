@@ -1,0 +1,24 @@
+############# config ###################
+set base_path    /var/www/html/ubuntu
+set nthreads     10000
+set _tilde 0
+############# end config ##############
+deb http://archive.ubuntu.com/ubuntu jammy main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu jammy-security main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu jammy-updates main restricted universe multiverse
+
+#deb-src http://archive.ubuntu.com/ubuntu jammy main restricted universe multiverse
+#deb-src http://archive.ubuntu.com/ubuntu jammy-security main restricted universe multiverse
+#deb-src http://archive.ubuntu.com/ubuntu jammy-updates main restricted universe multiverse
+#deb-src http://archive.ubuntu.com/ubuntu jammy-proposed main restricted universe multiverse
+#deb-src http://archive.ubuntu.com/ubuntu jammy-backports main restricted universe multiverse
+
+#deb http://archive.ubuntu.com/ubuntu devel main restricted universe multiverse
+#deb http://archive.ubuntu.com/ubuntu devel-security main restricted universe multiverse
+#deb http://archive.ubuntu.com/ubuntu devel-updates main restricted universe multiverse
+
+#deb-src http://archive.ubuntu.com/ubuntu devel main restricted universe multiverse
+#deb-src http://archive.ubuntu.com/ubuntu devel-security main restricted universe multiverse
+#deb-src http://archive.ubuntu.com/ubuntu devel-updates main restricted universe multiverse
+
+clean http://archive.ubuntu.com/ubuntu
