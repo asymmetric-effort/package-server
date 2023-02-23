@@ -1,6 +1,6 @@
 ############# config ###################
 set base_path    /var/www/html/ubuntu
-set nthreads     10000
+set nthreads     1000
 set _tilde 0
 ############# end config ##############
 deb http://archive.ubuntu.com/ubuntu jammy main restricted universe multiverse
