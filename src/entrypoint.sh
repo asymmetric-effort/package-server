@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sync_mirror() {
-  /usr/bin/apt-mirror && echo "set $ready 1;" >/etc/nginx/ready.conf
+  /usr/bin/apt-mirror
 }
 
 set -e
