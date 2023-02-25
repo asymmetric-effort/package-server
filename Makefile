@@ -14,6 +14,6 @@ package_server/help:
 	@echo 'make package_server/run-local -> run the container locally (for bootstrapping)'
 	@echo 'make package_server/logs      -> tail the logs of a running package server'
 	@echo 'make package_server/stop      -> stop the package server'
-	@exit0
+	@exit 0
 
 include Makefile.d/*.mk
